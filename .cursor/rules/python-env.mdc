@@ -1,0 +1,23 @@
+---
+description: Always use the uv-managed .venv for Python in this project
+alwaysApply: true
+---
+
+# Python Environment
+
+This project uses a uv-managed virtual environment at `.venv/`.
+
+- **Always** run Python scripts with `.venv/bin/python` (or `uv run <script>`)
+- **Always** install packages with `uv add <package>` (not pip)
+- **Never** use the system Python or a conda env for this project
+
+```bash
+# Run a script
+uv run script.py
+
+# Add a dependency
+uv add pymupdf
+
+# Activate manually if needed
+source .venv/bin/activate
+```

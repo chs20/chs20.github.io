@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Christian Schlarmann – PhD Candidate at Tübingen AI Center" />
+  <title>Christian Schlarmann</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== TOP NAVIGATION ========== -->
+  <nav class="topnav">
+    <div class="nav-inner">
+      <a href="#about" class="nav-brand">Christian Schlarmann</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <div class="page-wrapper">
+
+    <!-- ========== SIDEBAR ========== -->
+    <aside class="sidebar">
+      <div class="profile-photo-wrap">
+        <img src="assets/profile.jpg" alt="Christian Schlarmann" class="profile-photo" id="profileImg" />
+        <div class="photo-fallback" id="photoFallback">CS</div>
+      </div>
+
+      <h1 class="sidebar-name">Christian Schlarmann</h1>
+      <p class="sidebar-role">PhD Candidate</p>
+      <p class="sidebar-inst">
+        <a href="https://tuebingen.ai" target="_blank" rel="noopener">Tübingen AI Center</a>
+      </p>
+
+      <div class="sidebar-social">
+        <a href="https://scholar.google.com/citations?user=reM28tAAAAAJ" target="_blank" rel="noopener" class="social-item" title="Google Scholar">
+          <i class="fa-brands fa-google-scholar"></i> Scholar
+        </a>
+        <a href="https://github.com/chs20" target="_blank" rel="noopener" class="social-item" title="GitHub">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+        <a href="https://linkedin.com/in/christianschlarmann" target="_blank" rel="noopener" class="social-item" title="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+    </aside>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main class="content">
+
+      <!-- ABOUT -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am a PhD Candidate at the <a href="https://tuebingen.ai" target="_blank" rel="noopener">Tübingen AI Center</a>
+          and the <a href="https://imprs.is.mpg.de" target="_blank" rel="noopener">International Max Planck Research School for Intelligent Systems (IMPRS-IS)</a>,
+          supervised by Professor Matthias Hein. My research focuses on the robustness and reliability of multimodal
+          foundation models, with a particular emphasis on generative vision-language models.
+        </p>
+        <p>
+          Previously, I received my M.Sc. in Machine Learning from the University of Tübingen and my B.Sc. in Mathematics
+          from the University of Stuttgart. I also conduct freelance red teaming work for OpenAI,
+          evaluating the safety and reliability of frontier AI models.
+        </p>
+
+        <div class="interests">
+          <h3>Research Interests</h3>
+          <ul>
+            <li>Adversarial Robustness</li>
+            <li>Trustworthy &amp; Reliable Machine Learning</li>
+            <li>Multimodal Foundation Models</li>
+            <li>Vision-Language Models</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- NEWS -->
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li>
+            <span class="news-date">2026</span>
+            <span class="news-text">New preprint: <em>Visual Memory Injection Attacks for Multi-Turn Conversations</em> is out on arXiv.</span>
+          </li>
+          <li>
+            <span class="news-date">2026</span>
+            <span class="news-text">Serving as reviewer for ICML 2026 and AISTATS 2026.</span>
+          </li>
+          <li>
+            <span class="news-date">2025</span>
+            <span class="news-text">Paper <em>Robustness in Both Domains: CLIP Needs a Robust Text Encoder</em> accepted at NeurIPS 2025.</span>
+          </li>
+          <li>
+            <span class="news-date">2025</span>
+            <span class="news-text">Paper <em>Adversarially Robust CLIP Models Can Induce Better (Robust) Perceptual Metrics</em> accepted at IEEE SaTML 2025.</span>
+          </li>
+          <li>
+            <span class="news-date">2025</span>
+            <span class="news-text">Serving as reviewer for ICCV 2025 and NeurIPS 2025.</span>
+          </li>
+          <li>
+            <span class="news-date">2024</span>
+            <span class="news-text"><em>Robust CLIP</em> selected as <strong>oral presentation</strong> at ICML 2024 (top 2% of submissions).</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- PUBLICATIONS -->
+      <section id="publications">
+        <h2>Publications</h2>
+        <p class="section-note">See the full list on <a href="https://scholar.google.com/citations?user=reM28tAAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.</p>
+
+        <div class="pub-list">
+
+          <div class="pub-item">
+            <div class="pub-thumb">
+              <img src="assets/thumbnails/thumb_visual_memory_injection.jpg" alt="Visual Memory Injection paper thumbnail" loading="lazy" />
+            </div>
+            <div class="pub-info">
+              <p class="pub-title">Visual Memory Injection Attacks for Multi-Turn Conversations</p>
+              <p class="pub-authors"><strong>Schlarmann</strong>, Hein</p>
+              <p class="pub-venue">arXiv, 2026</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2602.15927" class="pub-link" target="_blank" rel="noopener">arXiv</a>
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=reM28tAAAAAJ&citation_for_view=reM28tAAAAAJ:roLk4NBRz8UC" class="pub-link" target="_blank" rel="noopener">Scholar</a>
+                <a href="https://github.com/chs20/visual-memory-injection" class="pub-link" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-thumb">
+              <img src="assets/thumbnails/thumb_mind_the_detail.jpg" alt="Mind the Detail paper thumbnail" loading="lazy" />
+            </div>
+            <div class="pub-info">
+              <p class="pub-title">Mind the Detail: Uncovering Clinically Relevant Image Details in Accelerated MRI with Semantically Diverse Reconstructions</p>
+              <p class="pub-authors">Morshuis, <strong>Schlarmann</strong>, Küstner, Baumgartner, Hein</p>
+              <p class="pub-venue">Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2025</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2507.00670" class="pub-link" target="_blank" rel="noopener">arXiv</a>
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=reM28tAAAAAJ&citation_for_view=reM28tAAAAAJ:ufrVoPGSRksC" class="pub-link" target="_blank" rel="noopener">Scholar</a>
+                <a href="https://github.com/NikolasMorshuis/SDR" class="pub-link" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-thumb">
+              <img src="assets/thumbnails/thumb_robustness_both_domains.jpg" alt="Robustness in Both Domains paper thumbnail" loading="lazy" />
+            </div>
+            <div class="pub-info">
+              <p class="pub-title">Robustness in Both Domains: CLIP Needs a Robust Text Encoder</p>
+              <p class="pub-authors">Abad Rocamora, <strong>Schlarmann</strong>, Singh, Wu, Hein, Cevher</p>
+              <p class="pub-venue">Conference on Neural Information Processing Systems (NeurIPS), 2025</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2506.03355" class="pub-link" target="_blank" rel="noopener">arXiv</a>
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=reM28tAAAAAJ&citation_for_view=reM28tAAAAAJ:WF5omc3nYNoC" class="pub-link" target="_blank" rel="noopener">Scholar</a>
+                <a href="https://github.com/LIONS-EPFL/LEAF" class="pub-link" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://huggingface.co/LEAF-CLIP" class="pub-link" target="_blank" rel="noopener">HuggingFace</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-thumb">
+              <img src="assets/thumbnails/thumb_fuselip.jpg" alt="FuseLIP paper thumbnail" loading="lazy" />
+            </div>
+            <div class="pub-info">
+              <p class="pub-title">FuseLIP: Multimodal Embeddings via Early Fusion of Discrete Tokens</p>
+              <p class="pub-authors"><strong>Schlarmann</strong>, Croce, Flammarion, Hein</p>
+              <p class="pub-venue">arXiv, 2025</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2506.03096" class="pub-link" target="_blank" rel="noopener">arXiv</a>
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=reM28tAAAAAJ&citation_for_view=reM28tAAAAAJ:YsMSGLbcyi4C" class="pub-link" target="_blank" rel="noopener">Scholar</a>
+                <a href="https://github.com/chs20/fuselip" class="pub-link" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://huggingface.co/collections/chs20/fuselip" class="pub-link" target="_blank" rel="noopener">HuggingFace</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-thumb">
+              <img src="assets/thumbnails/thumb_robust_clip_perceptual.jpg" alt="Robust CLIP Perceptual Metrics paper thumbnail" loading="lazy" />
+            </div>
+            <div class="pub-info">
+              <p class="pub-title">Adversarially Robust CLIP Models Can Induce Better (Robust) Perceptual Metrics</p>
+              <p class="pub-authors">Croce, <strong>Schlarmann</strong>, Singh, Hein</p>
+              <p class="pub-venue">IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 2025</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2502.11725" class="pub-link" target="_blank" rel="noopener">arXiv</a>
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=reM28tAAAAAJ&citation_for_view=reM28tAAAAAJ:IjCSPb-OGe4C" class="pub-link" target="_blank" rel="noopener">Scholar</a>
+                <a href="https://github.com/fra31/perceptual-metrics" class="pub-link" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-thumb">
+              <img src="assets/thumbnails/thumb_ensemble_everywhere.jpg" alt="Ensemble Everything Everywhere paper thumbnail" loading="lazy" />
+            </div>
+            <div class="pub-info">
+              <p class="pub-title">Evaluating the Robustness of the "Ensemble Everything Everywhere" Defense</p>
+              <p class="pub-authors">Zhang, <strong>Schlarmann</strong>, Nikolić, Carlini, Croce, Hein, Tramèr</p>
+              <p class="pub-venue">arXiv, 2024</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2411.14834" class="pub-link" target="_blank" rel="noopener">arXiv</a>
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=reM28tAAAAAJ&citation_for_view=reM28tAAAAAJ:LkGwnXOMwfcC" class="pub-link" target="_blank" rel="noopener">Scholar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-thumb">
+              <img src="assets/thumbnails/thumb_robust_clip.jpg" alt="Robust CLIP paper thumbnail" loading="lazy" />
+            </div>
+            <div class="pub-info">
+              <p class="pub-title">Robust CLIP: Unsupervised Adversarial Fine-Tuning of Vision Embeddings for Robust Large Vision-Language Models</p>
+              <p class="pub-authors"><strong>Schlarmann</strong>, Singh, Croce, Hein</p>
+              <p class="pub-venue">International Conference on Machine Learning (ICML) — <strong>Oral</strong>, 2024</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2402.12336" class="pub-link" target="_blank" rel="noopener">arXiv</a>
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=reM28tAAAAAJ&citation_for_view=reM28tAAAAAJ:9yKSN-GCB0IC" class="pub-link" target="_blank" rel="noopener">Scholar</a>
+                <a href="https://github.com/chs20/RobustVLM" class="pub-link" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://huggingface.co/collections/chs20/robust-clip" class="pub-link" target="_blank" rel="noopener">HuggingFace</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-thumb">
+              <img src="assets/thumbnails/thumb_adversarial_robustness_mm.jpg" alt="Adversarial Robustness Multi-Modal paper thumbnail" loading="lazy" />
+            </div>
+            <div class="pub-info">
+              <p class="pub-title">On the Adversarial Robustness of Multi-Modal Foundation Models</p>
+              <p class="pub-authors"><strong>Schlarmann</strong>, Hein</p>
+              <p class="pub-venue">ICCV Workshop on Adversarial Robustness in the Real World (AROW), 2023</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2308.10741" class="pub-link" target="_blank" rel="noopener">arXiv</a>
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=reM28tAAAAAJ&citation_for_view=reM28tAAAAAJ:d1gkVwhDpl0C" class="pub-link" target="_blank" rel="noopener">Scholar</a>
+                <a href="https://github.com/chs20/RobustVLM" class="pub-link" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience">
+        <h2>Experience</h2>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-date">03/2023 – Present</div>
+            <div class="timeline-body">
+              <p class="timeline-role">Researcher</p>
+              <p class="timeline-org">University of Tübingen — Tübingen, Germany</p>
+              <p class="timeline-desc">Led research on robustness and reliability of multimodal foundation models, with a focus on generative vision-language models. Developed and fine-tuned models using full-model training and parameter-efficient methods (LoRA, adapters). Published at NeurIPS, ICML, and other top venues. Supervised bachelor students and delivered tutorials for the MSc. lectures "Statistical Machine Learning" and "Mathematics for Machine Learning".</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">09/2023 – 03/2025</div>
+            <div class="timeline-body">
+              <p class="timeline-role">Freelance Consultant — Red Teaming</p>
+              <p class="timeline-org">OpenAI — Remote</p>
+              <p class="timeline-desc">Conducted compensated red teaming projects to evaluate the safety and reliability of new models and features. Identified safety and reliability vulnerabilities in frontier AI models through adversarial evaluation. Contributed to the PaperBench benchmark by defining success criteria for reproducing the Robust CLIP paper.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">10/2018 – 10/2019</div>
+            <div class="timeline-body">
+              <p class="timeline-role">Intern &amp; Working Student</p>
+              <p class="timeline-org">Mercedes-Benz AG — Stuttgart, Germany</p>
+              <p class="timeline-desc">Applied deep learning methods for predictive maintenance of industrial production machines. Trained recurrent neural networks to detect anomalies in time series data.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education">
+        <h2>Education</h2>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-date">2022 – Present</div>
+            <div class="timeline-body">
+              <p class="timeline-role">PhD Candidate in Machine Learning</p>
+              <p class="timeline-org">University of Tübingen &amp; International Max Planck Research School for Intelligent Systems (IMPRS-IS)</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">2019 – 2022</div>
+            <div class="timeline-body">
+              <p class="timeline-role">M.Sc. in Machine Learning</p>
+              <p class="timeline-org">University of Tübingen</p>
+              <p class="timeline-desc">Thesis: "Confidence-Calibrated Adversarial Training and Out-of-Distribution Detection", supervised by Professor Matthias Hein.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">2014 – 2018</div>
+            <div class="timeline-body">
+              <p class="timeline-role">B.Sc. in Mathematics</p>
+              <p class="timeline-org">University of Stuttgart &amp; ETH Zürich</p>
+              <p class="timeline-desc">Thesis: "The Hitchin-Thorpe-Inequality on Four-Dimensional Einstein-Manifolds", supervised by Professor Uwe Semmelmann.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+    </main>
+  </div>
+
+  <footer>
+    <p>© 2026 Christian Schlarmann &middot; Last updated March 2026</p>
+  </footer>
+
+  <script>
+    // ---- Dark / Light mode ----
+    const toggleBtn = document.getElementById('themeToggle');
+    const html = document.documentElement;
+
+    const saved = localStorage.getItem('theme') || 'light';
+    html.setAttribute('data-theme', saved);
+    setIcon(saved);
+
+    toggleBtn.addEventListener('click', () => {
+      const next = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      setIcon(next);
+    });
+
+    function setIcon(theme) {
+      toggleBtn.innerHTML = theme === 'light'
+        ? '<i class="fa-solid fa-moon"></i>'
+        : '<i class="fa-solid fa-sun"></i>';
+    }
+
+    // ---- Profile photo fallback ----
+    const img = document.getElementById('profileImg');
+    const fallback = document.getElementById('photoFallback');
+
+    function showFallback() {
+      img.style.display = 'none';
+      fallback.style.display = 'flex';
+    }
+
+    img.addEventListener('error', showFallback);
+    // Handle already-broken cached image
+    if (img.complete && img.naturalHeight === 0) showFallback();
+
+    // ---- Active nav link on scroll ----
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => {
+            link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id);
+          });
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+
+    sections.forEach(s => observer.observe(s));
+  </script>
+
+</body>
+</html>
