@@ -3,4 +3,5 @@ __pycache__/
 *.pyc
 uv.lock
 .DS_Store
+.cursor/
 cv.txt
